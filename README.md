@@ -102,6 +102,8 @@ Les routes inconnues, y compris les slugs de projet invalides, affichent une pag
 
 La fiche ByBuy décrit l’ERP développé pour gérer les comptes fournisseurs et clients de chaque GIE. Elle renvoie au [site public ByBuy](https://by-buy.net/) pour situer l’activité, en précisant que ce site et l’ERP sont distincts. Les commandes, devis et stocks ne sont pas présentés comme des fonctions de cet ERP faute de confirmation.
 
+La fiche Social Media Conseils reprend le CV : dashboard Angular / Spring Boot avec API REST, gestion et suivi des données de prospection, automatisation et ciblage par Web Scraping avec Data Miner, DuxSoup et PhantomBuster.
+
 ## Traductions
 
 `src/i18n/index.ts` initialise trois espaces de noms : `common`, `experience`, `projects`.

@@ -30,12 +30,12 @@
     ]
   },
   "prospecting": {
-    "role": "Développement d’une plateforme de prospection digitale",
+    "role": "Stagiaire · Optimisation de la prospection digitale",
     "period": "Juin 2023 — septembre 2023",
-    "summary": "Tableau de bord de gestion des prospects, contacts, ciblage et suivi client.",
+    "summary": "Application Web Angular & Spring Boot dédiée à la prospection digitale.",
     "items": [
-      "Interfaces Angular et API REST Node.js / Express.js.",
-      "Collecte et traitement des données, segmentation, automatisation et outils de prospection."
+      "Développement d’un dashboard Angular / Spring Boot avec API REST pour la gestion et le suivi des données de prospection.",
+      "Automatisation et ciblage de prospects via Web Scraping : Data Miner, DuxSoup et PhantomBuster."
     ]
   },
   "crococoder": {

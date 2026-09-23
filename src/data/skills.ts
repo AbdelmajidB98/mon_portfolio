@@ -31,7 +31,7 @@ export const skills = [
   },
   {
     id: 'data',
-    tech: ['Python', 'NumPy', 'Pandas', 'Scikit-learn', 'Data Miner', 'Dux-Soup', 'PhantomBuster'],
+    tech: ['Python', 'NumPy', 'Pandas', 'Scikit-learn', 'Data Miner', 'DuxSoup', 'PhantomBuster'],
     terms: ['scraping'],
   },
 ];

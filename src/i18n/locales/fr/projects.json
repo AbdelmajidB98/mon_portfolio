@@ -148,29 +148,22 @@
   },
   "digital-prospecting": {
     "period": "Juin – sept. 2023 · période de l’expérience",
-    "title": "Prospection digitale",
-    "subtitle": "Professionnel · Automatisation",
-    "description": "Un tableau de bord pour organiser les contacts, le ciblage et le suivi des prospects.",
-    "context": "Social Media Conseils · juin à septembre 2023.",
-    "problem": "Structurer les données de prospection et faciliter le suivi client.",
-    "solution": "Une interface Angular connectée à un Backend Node.js / Express.js par API REST.",
-    "role": "Développement de la plateforme et travail sur les données de prospection.",
-    "architecture": ["Angular", "REST API", "Node.js · Express.js", "Données de contacts"],
+    "title": "Optimisation de la prospection digitale",
+    "subtitle": "Professionnel · Angular & Spring Boot",
+    "description": "Dashboard Angular / Spring Boot avec API REST pour la gestion et le suivi des données de prospection.",
+    "context": "Social Media Conseils, Tunis · juin à septembre 2023.",
+    "problem": "Optimiser la gestion et le suivi des données de prospection, ainsi que l’automatisation et le ciblage des prospects.",
+    "solution": "Développement d’un dashboard Angular / Spring Boot avec API REST et utilisation du Web Scraping pour automatiser et cibler les prospects.",
+    "role": "Développement du dashboard et automatisation de la prospection avec Data Miner, DuxSoup et PhantomBuster.",
+    "architecture": ["Angular", "Spring Boot", "REST API", "Web Scraping"],
     "features": [
-      "Gestion des prospects et contacts",
-      "Tableau de bord et suivi client",
-      "Collecte et traitement des données",
-      "Segmentation, ciblage et automatisation"
+      "Gestion des données de prospection",
+      "Suivi des données dans le dashboard",
+      "Automatisation et ciblage de prospects via Web Scraping"
     ],
-    "concepts": [
-      "Extraction Web",
-      "Génération de prospects",
-      "Data Miner",
-      "Dux-Soup",
-      "PhantomBuster"
-    ],
-    "challenges": "Organiser les informations collectées pour les rendre exploitables.",
-    "learning": "Intégration Full-Stack JavaScript et automatisation des processus de prospection."
+    "concepts": ["Data Miner", "DuxSoup", "PhantomBuster"],
+    "challenges": "Articuler dashboard, API REST et outils de Web Scraping pour le suivi et le ciblage des prospects.",
+    "learning": "Pratique d’Angular, Spring Boot, des API REST et du Web Scraping."
   },
   "iteam-freelance-connect": {
     "period": "PFA · juin 2024",

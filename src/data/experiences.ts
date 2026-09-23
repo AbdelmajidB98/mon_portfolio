@@ -37,15 +37,7 @@ export const experiences: Experience[] = [
   {
     id: 'prospecting',
     company: 'Social Media Conseils',
-    technologies: [
-      'Angular',
-      'Node.js',
-      'Express.js',
-      'REST API',
-      'Data Miner',
-      'Dux-Soup',
-      'PhantomBuster',
-    ],
+    technologies: ['Angular', 'Spring Boot', 'REST API', 'Web Scraping'],
   },
   {
     id: 'crococoder',

@@ -30,12 +30,12 @@
     ]
   },
   "prospecting": {
-    "role": "Digital Prospecting Platform Development",
+    "role": "Intern · Digital Prospecting Optimization",
     "period": "June 2023 — September 2023",
-    "summary": "Dashboard for managing prospects, contacts, targeting and customer monitoring.",
+    "summary": "Angular & Spring Boot web application for digital prospecting.",
     "items": [
-      "Angular interfaces and Node.js / Express.js REST APIs.",
-      "Data collection and processing, segmentation, automation and prospecting tools."
+      "Developed an Angular / Spring Boot dashboard with a REST API to manage and monitor prospecting data.",
+      "Automated and targeted prospecting through Web Scraping with Data Miner, DuxSoup and PhantomBuster."
     ]
   },
   "crococoder": {
