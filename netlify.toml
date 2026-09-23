@@ -3,6 +3,8 @@
   publish = "dist"
 [build.environment]
   NODE_VERSION = "22"
+[functions.cv]
+  included_files = ["netlify/cv/Abdelmajid-Bouchoucha-CV.pdf"]
 [[redirects]]
   from = "/*"
   to = "/index.html"

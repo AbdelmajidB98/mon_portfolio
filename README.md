@@ -32,7 +32,7 @@ Le build de production est généré dans `dist/`. `preview` permet de le tester
 - Respect du réglage de réduction des animations, lien d’évitement et focus visibles.
 - Métadonnées FR/EN, OpenGraph, Twitter, favicon et robots.txt.
 - Contact par `mailto:` ; aucune simulation d’envoi de formulaire.
-- CV automatiquement proposé au démarrage/build uniquement si son fichier existe.
+- CV fourni : consultation dans le navigateur et téléchargement distincts. Sur Netlify, chaque accès valide déclenche une tentative de notification par e-mail via Resend.
 - Pages projets et 404 chargées à la demande ; polices Inter hébergées localement.
 
 ## Technologies
@@ -42,8 +42,10 @@ React 19, TypeScript, Vite, Tailwind CSS 4, Framer Motion, React Router, Lucide 
 ## Architecture
 
 ```text
+netlify/
+  cv/                         # CV PDF servi par la fonction, hors du site statique
+  functions/cv.mjs            # Accès au PDF et notification Resend
 public/
-  cv/                         # CV PDF à fournir
   images/projects/            # Captures autorisées à ajouter
   favicon.svg
   robots.txt
@@ -51,7 +53,7 @@ scripts/
   verify-content.mjs          # Contrôle de parité des traductions
 src/
   components/
-    layout.tsx                # Navbar, langue, menu, CV, footer, scroll
+    layout.tsx                # Navbar, langue, menu, accès au CV, footer, scroll
     Hero.tsx                  # Hero, TechOrbit, RecruiterSnapshot
     Sections.tsx              # About, Experience, Skills, Education, Contact
     Projects.tsx              # Galerie, catégories, cartes
@@ -123,15 +125,19 @@ Les missions professionnelles proviennent du prompt fourni. Les périmètres inc
 
 Déposer les captures autorisées dans `public/images/projects/`, idéalement en WebP ou AVIF, puis définir par exemple `image: '/images/projects/apa.webp'` sur le projet. Sans image, le composant `ProjectVisual` génère une illustration HTML/CSS légère. Les illustrations actuelles sont explicitement signalées comme conceptuelles. Après ajout d’une vraie capture, adapter sa légende et son texte alternatif dans `ProjectVisual` / `ProjectDetails` si l’image apporte une information non décrite dans le texte.
 
-## CV
+## CV et notifications
 
-Déposer le fichier exact :
+Le CV fourni est conservé sans modification dans `netlify/cv/Abdelmajid-Bouchoucha-CV.pdf`. Les liens « Voir mon CV » et « Télécharger mon CV » appellent `/api/cv?action=view` et `/api/cv?action=download`. La fonction Netlify sert le même PDF avec `Content-Disposition: inline` ou `attachment`, puis demande à Resend d’envoyer une alerte. Le PDF n’est pas copié dans `public/` : les accès au CV depuis le site passent par cette fonction.
 
-```text
-public/cv/Abdelmajid-Bouchoucha-CV.pdf
-```
+Le destinataire confirmé est `bouchouchaabdelmajid45@gmail.com`. Avant une mise en ligne sur Netlify, configurer dans les variables d’environnement accessibles aux **Functions** :
 
-Redémarrer Vite ou relancer le build. La présence est vérifiée par Vite : le bouton n’est pas un lien lorsque le PDF est absent. Le document n’a pas été fabriqué à partir du prompt.
+| Variable          | Valeur attendue                                                                                                   |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| `RESEND_API_KEY`  | Clé API privée Resend                                                                                             |
+| `CV_FROM_EMAIL`   | Adresse d’expédition appartenant à un domaine vérifié dans Resend, par exemple `Portfolio <cv@votre-domaine.tld>` |
+| `CV_NOTIFY_EMAIL` | `bouchouchaabdelmajid45@gmail.com`                                                                                |
+
+La clé ne doit jamais être préfixée par `VITE_` ni ajoutée au dépôt. Le site continue à servir le CV si l’envoi échoue ; l’erreur est alors visible dans les logs de la fonction. Une alerte atteste qu’une requête d’ouverture ou de téléchargement a été reçue, pas que la personne a lu le document ou enregistré le fichier jusqu’au bout. Les requêtes `HEAD`, les préchargements et les demandes de plages (`Range`) ne déclenchent pas d’e-mail supplémentaire. En développement et avec `npm run preview`, Vite sert le PDF localement sans envoyer d’e-mail.
 
 ## SEO et URL publique
 
@@ -145,13 +151,13 @@ Build command : `npm run build`.
 
 Publish directory : `dist`.
 
-`netlify.toml` est déjà configuré avec le fallback React Router `/* → /index.html` (200), ce qui permet les accès directs et rechargements sur les pages projets. Aucun compte Netlify n’a été connecté et aucune publication n’a été effectuée.
+`netlify.toml` est configuré avec le fallback React Router `/* → /index.html` (200) et inclut le PDF dans la fonction `cv`. Aucun compte Netlify n’a été connecté et aucune publication n’a été effectuée. Les notifications réelles exigent un déploiement sur Netlify et la configuration Resend ci-dessus.
 
 ## Éléments à fournir
 
-- CV PDF final.
 - Captures réelles et autorisées si vous souhaitez remplacer les illustrations.
 - URL publique pour les canonical.
+- Clé Resend et domaine d’expédition vérifié pour activer les alertes CV.
 - Liens de démo / dépôts publiables, uniquement s’ils existent.
 - Détails personnels supplémentaires sur les rôles, réalisations et enseignements des projets dont le périmètre n’est pas confirmé.
 
@@ -165,7 +171,7 @@ Publish directory : `dist`.
 - Trois catégories vérifiées : 5 projets professionnels, 2 freelance et 7 académiques/formation. Un second clic réaffiche les 14 projets.
 - Classement vérifié dans le navigateur : NEXTIRA → MyVioo → Social Media Conseils ; invitation d’août 2026 → génie civil 2025 ; PFA juin 2024 → PFS janvier 2024 → PFA juin 2023 → CrocoCoder. La fiche du PFA 2024 affiche Scrum et le Sprint Backlog en FR et EN.
 - Persistance de la langue après rechargement, navigation projet et précédent/suivant ; menu mobile, sélecteur mobile et fermeture par Échap.
-- Page 404 en FR et EN, titres SEO traduits, absence de lien CV cassé.
+- Page 404 en FR et EN, titres SEO traduits et CV consultable ou téléchargeable dans le navigateur.
 - Build servi et consulté avec `npm run preview`, navigation vers une fiche puis retour navigateur vérifiés.
 - Rendu desktop/mobile examiné visuellement ; illustrations adaptées aux données du prompt plutôt qu’aux textes fictifs de la maquette de conception.
 

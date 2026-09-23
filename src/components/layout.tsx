@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowUpRight, Download, Github, Linkedin, Menu, X, ArrowUp } from 'lucide-react';
+import { ArrowUpRight, Download, Eye, Github, Linkedin, Menu, X, ArrowUp } from 'lucide-react';
 const sections = ['home', 'about', 'experience', 'projects', 'skills', 'education', 'contact'];
 export function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
@@ -31,10 +31,20 @@ export function LanguageSwitcher() {
 export function CVLink() {
   const { t } = useTranslation();
   return __HAS_CV__ ? (
-    <a className="cv-link" href="/cv/Abdelmajid-Bouchoucha-CV.pdf" download>
-      <Download size={15} />
-      {t('cv')}
-    </a>
+    <div className="cv-actions">
+      <a className="cv-link" href="/api/cv?action=view" target="_blank" rel="noreferrer">
+        <Eye size={15} />
+        {t('cvView')}
+      </a>
+      <a
+        className="cv-link cv-download"
+        href="/api/cv?action=download"
+        aria-label={t('cv')}
+        title={t('cv')}
+      >
+        <Download size={15} />
+      </a>
+    </div>
   ) : (
     <span className="cv-unavailable" title={t('cvMissing')}>
       <Download size={14} />

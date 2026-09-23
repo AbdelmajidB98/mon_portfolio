@@ -248,10 +248,19 @@ main:focus {
   gap: 7px;
   white-space: nowrap;
 }
+.cv-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 .cv-link {
   padding: 11px;
   border: 1px solid var(--border);
   border-radius: 5px;
+}
+.cv-download {
+  justify-content: center;
+  min-width: 40px;
 }
 .cv-unavailable {
   color: #66758d;
