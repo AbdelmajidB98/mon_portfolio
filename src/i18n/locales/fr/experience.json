@@ -1,0 +1,50 @@
+{
+  "nextira": {
+    "role": "Développeur Full-Stack React / PHP / Laravel",
+    "period": "Décembre 2025 — août 2026",
+    "summary": "Développement et évolution d’applications métier ERP/CRM et SaaS pour les marchés français et tunisien.",
+    "items": [
+      "Interfaces React connectées à des API REST, échanges JSON et fonctionnalités de ventes, achats, facturation, stocks, clients et fournisseurs.",
+      "Personnalisation de Dolibarr : modules PHP, hooks, workflows, devis, commandes, tableaux de bord et statistiques.",
+      "API PHP métier intégrées aux classes et modules Dolibarr ; maintenance des applications.",
+      "Participation aux migrations Dolibarr v13 / v15 vers v23 et adaptation des modules et API."
+    ]
+  },
+  "myvioo": {
+    "role": "Stage de fin d’études — Développeur Backend PHP / Symfony",
+    "period": "Février 2025 — juillet 2025",
+    "summary": "MyVioo Community : plateforme API de gestion de communautés et d’événements.",
+    "items": [
+      "Développement d’API REST sécurisées et modélisation des entités et relations avec Doctrine ORM.",
+      "Authentification stateless JWT, autorisations et renouvellement des jetons.",
+      "Sérialisation, documentation Swagger / OpenAPI, environnement Docker, Git et développement Agile."
+    ]
+  },
+  "wordpress": {
+    "role": "Stagiaire Développeur WordPress",
+    "period": "Juin 2024 — septembre 2024",
+    "summary": "Création et maintenance de sites Web de A à Z.",
+    "items": [
+      "Personnalisation de thèmes, intégration de contenus et extensions.",
+      "Design responsive, optimisation des performances et résolution de problèmes techniques."
+    ]
+  },
+  "prospecting": {
+    "role": "Développement d’une plateforme de prospection digitale",
+    "period": "Juin 2023 — septembre 2023",
+    "summary": "Tableau de bord de gestion des prospects, contacts, ciblage et suivi client.",
+    "items": [
+      "Interfaces Angular et API REST Node.js / Express.js.",
+      "Collecte et traitement des données, segmentation, automatisation et outils de prospection."
+    ]
+  },
+  "crococoder": {
+    "role": "Stagiaire Développeur Full-Stack JavaScript",
+    "period": "Octobre 2021 — février 2022",
+    "summary": "Applications Web avec Angular, Node.js, Express.js et MongoDB à Tunis.",
+    "items": [
+      "Gestion de flotte, e-commerce de pièces auto, rendez-vous médicaux et gestion de formations.",
+      "Architecture RESTful, CRUD, intégration Frontend / Backend, interfaces SPA responsive et NoSQL."
+    ]
+  }
+}

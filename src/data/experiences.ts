@@ -1,0 +1,55 @@
+import type { Experience } from '../types';
+export const experiences: Experience[] = [
+  {
+    id: 'nextira',
+    company: 'NEXTIRA',
+    technologies: [
+      'React.js',
+      'TypeScript',
+      'PHP 8.2',
+      'Laravel',
+      'Dolibarr ERP/CRM',
+      'REST API',
+      'MySQL',
+      'MariaDB',
+      'Git',
+      'Bootstrap',
+    ],
+  },
+  {
+    id: 'myvioo',
+    company: 'Millesima Technologies / MyVioo',
+    technologies: [
+      'Symfony 6.4',
+      'PHP 8.2',
+      'Doctrine ORM',
+      'JWT',
+      'JMS Serializer',
+      'FOSRestBundle',
+      'LexikJWTAuthenticationBundle',
+      'NelmioApiDoc',
+      'Swagger / OpenAPI',
+      'Docker',
+      'Git',
+    ],
+  },
+  { id: 'wordpress', company: 'Social Media Conseils', technologies: ['WordPress', 'HTML', 'CSS'] },
+  {
+    id: 'prospecting',
+    company: 'Social Media Conseils',
+    technologies: [
+      'Angular',
+      'Node.js',
+      'Express.js',
+      'REST API',
+      'Data Miner',
+      'Dux-Soup',
+      'PhantomBuster',
+    ],
+  },
+  {
+    id: 'crococoder',
+    company: 'CrocoCoder',
+    technologies: ['Angular', 'Node.js', 'Express.js', 'MongoDB', 'REST API'],
+  },
+];

@@ -1,0 +1,50 @@
+{
+  "nextira": {
+    "role": "Full-Stack React / PHP / Laravel Developer",
+    "period": "December 2025 — August 2026",
+    "summary": "Development and evolution of ERP/CRM and SaaS business applications for French and Tunisian markets.",
+    "items": [
+      "React interfaces connected to REST APIs, JSON communication and sales, purchasing, invoicing, stock, customer and supplier features.",
+      "Dolibarr customization: PHP modules, hooks, workflows, quotations, orders, dashboards and statistics.",
+      "Business PHP APIs integrated with Dolibarr classes and modules; application maintenance.",
+      "Participation in Dolibarr v13 / v15 to v23 migrations and adaptation of modules and APIs."
+    ]
+  },
+  "myvioo": {
+    "role": "Final-Year Internship — Backend PHP / Symfony Developer",
+    "period": "February 2025 — July 2025",
+    "summary": "MyVioo Community: an API platform for community and event management.",
+    "items": [
+      "Secure REST API development and entity and relationship modeling with Doctrine ORM.",
+      "Stateless JWT authentication, authorization and refresh tokens.",
+      "Serialization, Swagger / OpenAPI documentation, Docker environment, Git and Agile development."
+    ]
+  },
+  "wordpress": {
+    "role": "WordPress Developer Intern",
+    "period": "June 2024 — September 2024",
+    "summary": "End-to-end website development and maintenance.",
+    "items": [
+      "Theme customization, content and plugin integration.",
+      "Responsive design, performance optimization and technical troubleshooting."
+    ]
+  },
+  "prospecting": {
+    "role": "Digital Prospecting Platform Development",
+    "period": "June 2023 — September 2023",
+    "summary": "Dashboard for managing prospects, contacts, targeting and customer monitoring.",
+    "items": [
+      "Angular interfaces and Node.js / Express.js REST APIs.",
+      "Data collection and processing, segmentation, automation and prospecting tools."
+    ]
+  },
+  "crococoder": {
+    "role": "Full-Stack JavaScript Developer Intern",
+    "period": "October 2021 — February 2022",
+    "summary": "Web applications with Angular, Node.js, Express.js and MongoDB in Tunis.",
+    "items": [
+      "Fleet management, automotive parts e-commerce, doctor appointments and training management.",
+      "RESTful architecture, CRUD, frontend/backend integration, responsive SPAs and NoSQL."
+    ]
+  }
+}

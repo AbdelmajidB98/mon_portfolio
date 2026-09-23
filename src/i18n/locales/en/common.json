@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "role": "Full-Stack Developer",
+  "location": "Tunis, Tunisia",
+  "available": "Open to new opportunities",
+  "mobility": "Available for mobility",
+  "cv": "Download my CV",
+  "cvMissing": "CV coming soon",
+  "language": "Choose language",
+  "menu": "Open menu",
+  "close": "Close menu",
+  "skip": "Skip to content",
+  "backTop": "Back to top",
+  "hero": {
+    "name": "Abdelmajid Bouchoucha",
+    "first": "Developer.",
+    "second": "Full-Stack.",
+    "statement": "I build end-to-end business applications, ERP/CRM systems and modern web platforms.",
+    "description": "With a Software Engineering degree, I connect React interfaces, PHP/Symfony/Laravel backend services, REST APIs and business processes.",
+    "projects": "View my projects",
+    "experience": "View my experience",
+    "ecosystem": "One ecosystem. Complete solutions.",
+    "frontend": "Intuitive interfaces",
+    "backend": "Business logic",
+    "database": "Reliable data"
+  },
+  "snapshot": {
+    "stack": "Core stack",
+    "expertise": "Expertise",
+    "also": "Also",
+    "database": "Databases"
+  },
+  "about": {
+    "label": "ABOUT",
+    "title": "Understand the business.\nBuild the solution.",
+    "paragraphs": [
+      "Full-Stack Developer with a degree in Software Engineering and Information Systems. I develop business-oriented web solutions, from user interfaces to APIs and databases.",
+      "My experience includes ERP/CRM systems, B2B platforms, SaaS solutions, POS systems, fleet management and business APIs.",
+      "I enjoy projects where understanding business processes is essential to transforming requirements into reliable, maintainable and scalable technical solutions."
+    ],
+    "cards": ["Full-Stack Development", "Business Applications", "Continuous Learning"],
+    "sub": [
+      "Frontend + Backend + API + databases",
+      "ERP · CRM · SaaS · B2B · POS",
+      "ERP · Odoo · Cloud · modern web architecture"
+    ]
+  },
+  "highlights": [
+    "From business needs to solutions",
+    "From interfaces to databases",
+    "Documented and secure APIs"
+  ],
+  "experience": {
+    "label": "EXPERIENCE",
+    "title": "Where code meets practice.",
+    "intro": "Complementary experiences with a shared purpose: building useful software.",
+    "more": "Responsibilities and contributions"
+  },
+  "projects": {
+    "label": "PROJECTS",
+    "title": "From ideas to applications.",
+    "intro": "Selected professional, freelance and academic work.",
+    "featured": "Featured work",
+    "other": "More projects",
+    "view": "Explore project",
+    "count": "projects",
+    "methodology": "Methodology",
+    "illustration": "Concept illustration · not a product screenshot",
+    "professional": "Professional",
+    "freelance": "Freelance",
+    "academic": "Academic",
+    "professionalNote": "Professional project · source code is private",
+    "publicSite": "Visit the ByBuy website",
+    "publicSiteNote": "ByBuy’s public website is separate from the ERP described here.",
+    "back": "Back to projects",
+    "context": "The context",
+    "problem": "The business need",
+    "solution": "The solution",
+    "role": "My role",
+    "architecture": "Architecture",
+    "features": "Features and scope",
+    "concepts": "Technical concepts",
+    "challenges": "Technical considerations",
+    "learning": "Learning areas",
+    "stack": "Technologies",
+    "gallery": "Project preview",
+    "scope": "Scope items do not constitute confirmation of production functionality.",
+    "unspecified": "Detailed contributions and personal takeaways remain to be documented.",
+    "next": "Next project"
+  },
+  "skills": {
+    "label": "EXPERTISE",
+    "title": "A full-stack perspective.",
+    "intro": "The right tools, working for the business.",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "architecture": "API & architecture",
+    "database": "Databases",
+    "erp": "ERP / CMS",
+    "tools": "DevOps & tools",
+    "data": "Data & automation"
+  },
+  "terms": {
+    "responsive": "Responsive design",
+    "restful": "RESTful architecture",
+    "integration": "API integration",
+    "oop": "Object-oriented programming",
+    "logic": "Business logic",
+    "process": "Business processes",
+    "sales": "Sales",
+    "purchasing": "Purchasing",
+    "inventory": "Inventory",
+    "invoicing": "Invoicing",
+    "scraping": "Web scraping"
+  },
+  "education": {
+    "label": "EDUCATION",
+    "title": "Strong foundations. Lasting curiosity.",
+    "iteam": {
+      "title": "Bachelor’s Degree in Computer Science",
+      "description": "Software Engineering and Information Systems. Web development, databases, programming and software architecture."
+    },
+    "croco": {
+      "title": "Full-Stack JavaScript Web Development Training",
+      "description": "October 2021 – February 2022 · Angular, Node.js, Express.js and MongoDB."
+    },
+    "sadiki": {
+      "title": "Baccalaureate in Experimental Sciences",
+      "description": "École Sadiki · Tunis"
+    }
+  },
+  "languages": {
+    "title": "Conversations without borders.",
+    "arabic": "Arabic",
+    "french": "French",
+    "english": "English",
+    "native": "Native",
+    "professional": "Professional working proficiency",
+    "working": "Working proficiency"
+  },
+  "contact": {
+    "label": "LET’S TALK",
+    "title": "Let’s build something\ntogether.",
+    "description": "I am open to opportunities in Full-Stack, Web, Backend and ERP development, as well as technical projects involving the development of business applications.",
+    "button": "Contact me",
+    "email": "Send an email"
+  },
+  "footer": "Designed with care. Built with React.",
+  "notFound": {
+    "title": "Page not found",
+    "description": "This page does not exist or has moved.",
+    "back": "Back to home"
+  },
+  "loading": "Loading…",
+  "seo": {
+    "title": "Abdelmajid Bouchoucha | Full-Stack Developer — React, PHP, Laravel, Symfony",
+    "description": "Portfolio of Abdelmajid Bouchoucha, Full-Stack Developer specializing in React, PHP, Laravel, Symfony, REST APIs and ERP/CRM business applications."
+  }
+}

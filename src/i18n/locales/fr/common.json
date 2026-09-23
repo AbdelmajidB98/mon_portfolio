@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "education": "Formation",
+    "contact": "Contact"
+  },
+  "role": "Développeur Full-Stack",
+  "location": "Tunis, Tunisie",
+  "available": "Ouvert aux nouvelles opportunités",
+  "mobility": "Mobilité : disponible",
+  "cv": "Télécharger mon CV",
+  "cvMissing": "CV bientôt disponible",
+  "language": "Choisir la langue",
+  "menu": "Ouvrir le menu",
+  "close": "Fermer le menu",
+  "skip": "Aller au contenu",
+  "backTop": "Retour en haut",
+  "hero": {
+    "name": "Abdelmajid Bouchoucha",
+    "first": "Développeur",
+    "second": "Full-Stack.",
+    "statement": "Je conçois des applications métier, ERP/CRM et plateformes Web de bout en bout.",
+    "description": "Diplômé en Génie Logiciel, je relie interfaces React, services Backend PHP/Symfony/Laravel, API REST et processus métier.",
+    "projects": "Voir mes projets",
+    "experience": "Voir mon parcours",
+    "ecosystem": "Un écosystème. Des solutions complètes.",
+    "frontend": "Interfaces intuitives",
+    "backend": "Logique métier",
+    "database": "Données fiables"
+  },
+  "snapshot": {
+    "stack": "Stack principale",
+    "expertise": "Expertise",
+    "also": "Également",
+    "database": "Bases de données"
+  },
+  "about": {
+    "label": "À PROPOS",
+    "title": "Comprendre le métier.\nConstruire la solution.",
+    "paragraphs": [
+      "Développeur Full-Stack diplômé en Génie Logiciel et Systèmes d’Information, je développe des solutions Web orientées métier, de l’interface utilisateur jusqu’aux API et bases de données.",
+      "Mon expérience m’a permis de travailler sur des ERP/CRM, plateformes B2B, solutions SaaS, systèmes POS, gestion de flotte et API métier.",
+      "J’apprécie les projets nécessitant de comprendre les processus métier afin de les transformer en solutions techniques fiables, maintenables et évolutives."
+    ],
+    "cards": ["Développement Full-Stack", "Applications métier", "Apprentissage continu"],
+    "sub": [
+      "Frontend + Backend + API + bases de données",
+      "ERP · CRM · SaaS · B2B · POS",
+      "ERP · Odoo · Cloud · architecture Web moderne"
+    ]
+  },
+  "highlights": [
+    "Du besoin métier à la solution",
+    "Des interfaces aux bases de données",
+    "Des API documentées et sécurisées"
+  ],
+  "experience": {
+    "label": "PARCOURS",
+    "title": "Du code au terrain.",
+    "intro": "Des expériences complémentaires, un même fil conducteur : développer des logiciels utiles.",
+    "more": "Missions et contributions"
+  },
+  "projects": {
+    "label": "PROJETS",
+    "title": "Des idées aux applications.",
+    "intro": "Une sélection de réalisations professionnelles, freelance et académiques.",
+    "featured": "À la une",
+    "other": "Autres réalisations",
+    "view": "Explorer le projet",
+    "count": "projets",
+    "methodology": "Méthodologie",
+    "illustration": "Aperçu conceptuel · pas une capture du produit",
+    "professional": "Professionnels",
+    "freelance": "Freelance",
+    "academic": "Académiques",
+    "professionalNote": "Projet professionnel · code source non public",
+    "publicSite": "Découvrir le site ByBuy",
+    "publicSiteNote": "Site public de ByBuy ; l’ERP présenté ici est un outil de gestion distinct.",
+    "back": "Retour aux projets",
+    "context": "Le contexte",
+    "problem": "Le besoin métier",
+    "solution": "La solution",
+    "role": "Mon rôle",
+    "architecture": "Architecture",
+    "features": "Fonctionnalités et périmètre",
+    "concepts": "Concepts techniques",
+    "challenges": "Enjeux techniques",
+    "learning": "Axes d’apprentissage",
+    "stack": "Technologies",
+    "gallery": "Aperçu du projet",
+    "scope": "Les éléments de périmètre ne constituent pas une confirmation de mise en production.",
+    "unspecified": "Les contributions détaillées et les enseignements personnels restent à documenter.",
+    "next": "Projet suivant"
+  },
+  "skills": {
+    "label": "SAVOIR-FAIRE",
+    "title": "Une vision complète de la stack.",
+    "intro": "Les bons outils, au service du besoin métier.",
+    "frontend": "Front-end",
+    "backend": "Back-end",
+    "architecture": "API & architecture",
+    "database": "Bases de données",
+    "erp": "ERP / CMS",
+    "tools": "DevOps & outils",
+    "data": "Données & automatisation"
+  },
+  "terms": {
+    "responsive": "Design responsive",
+    "restful": "Architecture RESTful",
+    "integration": "Intégration API",
+    "oop": "Programmation orientée objet",
+    "logic": "Logique métier",
+    "process": "Processus métier",
+    "sales": "Ventes",
+    "purchasing": "Achats",
+    "inventory": "Stocks",
+    "invoicing": "Facturation",
+    "scraping": "Extraction Web"
+  },
+  "education": {
+    "label": "FORMATION",
+    "title": "Des bases solides. Une curiosité constante.",
+    "iteam": {
+      "title": "Licence en Sciences de l’Informatique",
+      "description": "Génie Logiciel et Systèmes d’Information. Développement Web, bases de données, programmation et architecture logicielle."
+    },
+    "croco": {
+      "title": "Formation Développement Web Full-Stack JavaScript",
+      "description": "Octobre 2021 – février 2022 · Angular, Node.js, Express.js et MongoDB."
+    },
+    "sadiki": {
+      "title": "Baccalauréat Sciences Expérimentales",
+      "description": "École Sadiki · Tunis"
+    }
+  },
+  "languages": {
+    "title": "Des échanges sans frontières.",
+    "arabic": "Arabe",
+    "french": "Français",
+    "english": "Anglais",
+    "native": "Langue maternelle",
+    "professional": "Maîtrise professionnelle",
+    "working": "Compétence opérationnelle"
+  },
+  "contact": {
+    "label": "ET SI ON ÉCHANGEAIT ?",
+    "title": "Construisons quelque\nchose ensemble.",
+    "description": "Je suis ouvert aux opportunités en développement Full-Stack, Web, Backend et ERP, ainsi qu’aux projets techniques nécessitant la conception d’applications métier.",
+    "button": "Me contacter",
+    "email": "Envoyer un e-mail"
+  },
+  "footer": "Conçu avec soin. Développé avec React.",
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "Cette page n’existe pas ou a été déplacée.",
+    "back": "Retour à l’accueil"
+  },
+  "loading": "Chargement…",
+  "seo": {
+    "title": "Abdelmajid Bouchoucha | Développeur Full-Stack — React, PHP, Laravel, Symfony",
+    "description": "Portfolio d’Abdelmajid Bouchoucha, Développeur Full-Stack spécialisé en React, PHP, Laravel, Symfony, API REST et applications métier ERP/CRM."
+  }
+}

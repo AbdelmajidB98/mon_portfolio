@@ -1,0 +1,322 @@
+{
+  "apa-pieces-auto": {
+    "period": "Dec 2025 – Aug 2026 · experience period",
+    "title": "APA Pièces Auto",
+    "subtitle": "ERP · CRM · Point of sale",
+    "description": "A business solution for automotive parts distribution, from point of sale to inventory management.",
+    "context": "Professional project at NEXTIRA for the French automotive spare-parts market.",
+    "problem": "Connect sales operations, customer relationships and stock flows in one business environment.",
+    "solution": "React interfaces consume business PHP REST APIs connected to Dolibarr ERP/CRM classes and modules.",
+    "role": "Full-stack development as part of the React / PHP and Dolibarr responsibilities at NEXTIRA.",
+    "architecture": ["React", "REST API · JSON", "PHP · Dolibarr", "MySQL / MariaDB"],
+    "features": [
+      "Sales, quotations, orders and point of sale",
+      "Customers, suppliers and CRM",
+      "Inventory, warehouses, shipping and receiving",
+      "Search, pagination, PDF generation and statistics"
+    ],
+    "concepts": [
+      "ERP / CRM / POS",
+      "Business workflows",
+      "API integration",
+      "Inventory management"
+    ],
+    "challenges": "Maintain consistency between interfaces, business rules and ERP data across API exchanges.",
+    "learning": "Connecting React interfaces to an ERP, organizing business flows and maintaining APIs."
+  },
+  "myvioo": {
+    "period": "Feb – Jul 2025 · internship",
+    "title": "MyVioo Community",
+    "subtitle": "Backend · Communities · Events",
+    "description": "A Symfony API platform connecting communities, members and events.",
+    "context": "Final-year internship at Millesima Technologies / MyVioo, February to July 2025.",
+    "problem": "Model communities, member roles, events and their financial relationships with secure access.",
+    "solution": "A RESTful Symfony 6.4 / PHP 8.2 backend, Doctrine entities, JWT authentication and OpenAPI documentation.",
+    "role": "Secure API development, relational modeling, authentication and authorization, documentation and Docker environment.",
+    "architecture": ["API clients", "JWT · Refresh token", "Symfony · Doctrine", "MySQL / MariaDB"],
+    "features": [
+      "Users, profiles, communities, members and owners",
+      "Events, categories, costs, services and packs",
+      "Payment, invoice and membership modeling",
+      "JMS / FOSRestBundle serialization, JWT and NelmioApiDoc documentation"
+    ],
+    "concepts": [
+      "RESTful API",
+      "Stateless authentication",
+      "Doctrine relationships",
+      "Swagger / OpenAPI",
+      "Docker · Git · Agile"
+    ],
+    "challenges": "Structure entity relationships and maintain consistent authorization within a stateless API.",
+    "learning": "Symfony backend architecture, relational modeling, JWT security and API contract documentation.",
+    "endpoints": [
+      "/api/v1/auth",
+      "/api/v1/me",
+      "/api/v1/users/{communityId}/{roleName}",
+      "/api/v1/community/users/{roleName}/role",
+      "/api/v1/pack"
+    ]
+  },
+  "bybuy": {
+    "period": "Dec 2025 – Aug 2026 · experience period",
+    "title": "ByBuy",
+    "subtitle": "B2B · GIE · ERP / CRM",
+    "description": "An ERP developed for ByBuy to manage supplier and customer accounts for each GIE.",
+    "context": "ByBuy centralizes purchases for its members and connects economic interest groups (GIEs) with suppliers. The ERP developed for this activity is separate from ByBuy’s public website.",
+    "problem": "Each GIE needs to organize its supplier and customer accounts within its own business context.",
+    "solution": "An ERP with React interfaces and PHP APIs connected to Dolibarr and MySQL to manage supplier and customer accounts by GIE.",
+    "role": "Full-stack React / PHP contribution to the ByBuy ERP as part of the NEXTIRA projects.",
+    "architecture": ["React", "REST API", "PHP · Dolibarr", "MySQL"],
+    "features": [
+      "Supplier account management for each GIE",
+      "Customer account management for each GIE",
+      "Organization of suppliers by their GIE",
+      "Organization of customers by their GIE"
+    ],
+    "concepts": ["B2B", "ERP / CRM", "GIE", "Supplier and customer accounts", "REST integration"],
+    "challenges": "Structure the relationships between GIEs, suppliers and customers so that each account belongs to the appropriate group.",
+    "learning": "Modeling accounts and their links to GIEs in a B2B ERP context."
+  },
+  "fleet": {
+    "period": "Dec 2025 – Aug 2026 · experience period",
+    "title": "Fleet",
+    "subtitle": "SaaS · Rentals · Fleet management",
+    "description": "A SaaS vehicle rental and fleet management application.",
+    "context": "Professional application for vehicle rental operations.",
+    "problem": "Organize vehicles, availability, customers and reservations.",
+    "solution": "A Laravel business application with Blade / Livewire interfaces and a MySQL database.",
+    "role": "PHP / Laravel development within professional business applications.",
+    "architecture": ["Blade · Livewire", "Laravel", "Business logic", "MySQL"],
+    "features": [
+      "Vehicle fleet and management",
+      "Reservations and rentals",
+      "Customers and availability",
+      "Dashboard and workflows"
+    ],
+    "concepts": ["SaaS", "Fleet management", "Reservations", "Business application"],
+    "challenges": "Represent the relationships between vehicle availability and reservation processes.",
+    "learning": "Laravel architecture and business interfaces with Livewire."
+  },
+  "civil-engineering-dms": {
+    "period": "2025",
+    "title": "Civil Engineering Document & Project Management",
+    "subtitle": "Freelance · Documents · Project tracking",
+    "description": "Centralizing technical documentation and connecting companies, resources and clients around civil engineering projects.",
+    "context": "Freelance project developed in 2025: a full-stack document and project management application for civil engineering.",
+    "problem": "Technical studies involve multiple stakeholders, documents, exchanges and approvals.",
+    "solution": "A React / NestJS / SQL platform designed to centralize information and improve visibility throughout the project lifecycle.",
+    "role": "Full-stack freelance project; module-specific contributions remain to be documented.",
+    "architecture": ["React", "REST API", "NestJS", "SQL"],
+    "features": [
+      "Proposed scope: project creation and tracking",
+      "Document management, classification and tracking",
+      "Project and company resources",
+      "Client access, statuses, search, filters and dashboard"
+    ],
+    "concepts": ["DMS", "Document lifecycle", "Client portal", "Workflow", "Relational database"],
+    "challenges": "Design consideration: make document exchanges between multiple stakeholders easy to understand.",
+    "learning": "Project learning areas: document structure, relational modeling and process visibility.",
+    "scope": true
+  },
+  "wedding-invitation": {
+    "period": "August 2026",
+    "title": "NOUR × HASSENE",
+    "subtitle": "Freelance · Creative web experience",
+    "description": "An interactive wedding invitation designed as an elegant, mobile-first web experience.",
+    "context": "Invitation developed in August 2026 for the September 6, 2026 event at Le Pavillon des Baies de Gammarth. Arrival and signature at 20:30, evening celebration at 21:00.",
+    "problem": "Transform a traditional invitation into a personal digital event experience accessible on mobile.",
+    "solution": "A light React / TypeScript / Vite interface, optimized for 9:16 and animated with GSAP.",
+    "role": "Frontend design and development of the invitation experience.",
+    "architecture": ["React · TypeScript", "Vite", "GSAP", "RSVP interface"],
+    "features": [
+      "Responsive digital invitation and subtle interactions",
+      "RSVP form: attendance, name, guest count and message",
+      "Creative prototypes: MagneticField, LivingLight, LivingBrush, BreathingSpace, GuestTrace",
+      "“ADD YOUR COLOR” concept and “See you under the lights.” easter egg"
+    ],
+    "concepts": ["Mobile-first", "UX / UI", "Micro-interactions", "GSAP", "Event experience"],
+    "challenges": "Balance expressive animations, readability and mobile comfort.",
+    "learning": "Interactive experience design and frontend animation. Architecture prepared for a service such as Supabase, with no confirmed active integration.",
+    "scope": true
+  },
+  "digital-prospecting": {
+    "period": "Jun – Sep 2023 · experience period",
+    "title": "Digital Prospecting",
+    "subtitle": "Professional · Automation",
+    "description": "A dashboard for organizing contacts, targeting and prospect monitoring.",
+    "context": "Social Media Conseils · June to September 2023.",
+    "problem": "Structure prospecting data and support customer monitoring.",
+    "solution": "An Angular interface connected to a Node.js / Express.js backend through REST APIs.",
+    "role": "Platform development and work on prospecting data.",
+    "architecture": ["Angular", "REST API", "Node.js · Express.js", "Contact data"],
+    "features": [
+      "Prospect and contact management",
+      "Dashboard and customer tracking",
+      "Data collection and processing",
+      "Segmentation, targeting and automation"
+    ],
+    "concepts": ["Web scraping", "Lead generation", "Data Miner", "Dux-Soup", "PhantomBuster"],
+    "challenges": "Organize collected information to make it useful.",
+    "learning": "Full-stack JavaScript integration and prospecting process automation."
+  },
+  "iteam-freelance-connect": {
+    "period": "PFA · June 2024",
+    "title": "ITEAM Freelance Connect",
+    "subtitle": "Academic · Students × Companies",
+    "description": "A bridge between ITEAM students and partner companies offering real-world web projects.",
+    "context": "PFA completed at ITEAM University in June 2024, connecting academic learning to professional projects. The work followed the Scrum methodology.",
+    "problem": "Help students gain practical experience through needs proposed by ITEAM partners.",
+    "solution": "A React / PHP / MySQL web platform designed to connect students, companies and opportunities.",
+    "role": "Full-stack academic project developed with Scrum: sprint planning and Sprint Backlog tracking. Detailed individual responsibilities remain to be documented.",
+    "architecture": ["React", "PHP", "MySQL", "Students ↔ Companies"],
+    "features": [
+      "Proposed modules: student and company profiles",
+      "Projects and opportunities",
+      "Applications and matching",
+      "Project tracking",
+      "Development organized into sprints with a Sprint Backlog"
+    ],
+    "concepts": [
+      "Student platform",
+      "Project marketplace",
+      "CRUD",
+      "Authentication",
+      "Skill development",
+      "Scrum",
+      "Sprint Backlog"
+    ],
+    "challenges": "Design consideration: connect student profiles with company needs.",
+    "learning": "Project learning areas: full-stack applications and modeling relationships between stakeholders.",
+    "scope": true
+  },
+  "iteam-elearning": {
+    "period": "PFS · January 2024",
+    "title": "ITEAM Events & E-Learning",
+    "subtitle": "Academic · Training · Events",
+    "description": "An application for managing training, educational activities and university events.",
+    "context": "PFS completed in January 2024 at ITEAM University.",
+    "problem": "Organize training, events, courses and student registrations.",
+    "solution": "An Angular and Node.js / Express.js web application with MongoDB.",
+    "role": "Academic full-stack JavaScript project; detailed contributions to be documented.",
+    "architecture": ["Angular", "REST API", "Node.js · Express.js", "MongoDB"],
+    "features": [
+      "Business domains: events and training",
+      "E-learning and courses",
+      "Students and registrations"
+    ],
+    "concepts": [
+      "SPA",
+      "CRUD",
+      "Routing",
+      "Components and services",
+      "HTTP client",
+      "MongoDB collections"
+    ],
+    "challenges": "Design consideration: structure a SPA connected to an API and a NoSQL database.",
+    "learning": "Project learning areas: Angular components, HTTP services and backend integration."
+  },
+  "bank-management": {
+    "period": "PFA · June 2023",
+    "title": "Bank Account Management",
+    "subtitle": "Academic · Desktop application",
+    "description": "A Python / Tkinter desktop application for bank account management.",
+    "context": "PFA completed at ITEAM University in June 2023, focused on programming and graphical interfaces.",
+    "problem": "Represent account management in a desktop interface.",
+    "solution": "A Python application with a Tkinter graphical interface.",
+    "role": "Academic Python project; detailed contributions to be documented.",
+    "architecture": ["Tkinter · GUI", "Events", "Python", "Business logic"],
+    "features": [
+      "Possible scope: creating, displaying, updating and deleting accounts",
+      "Banking operations and data validation to be confirmed"
+    ],
+    "concepts": [
+      "Object-oriented programming",
+      "CRUD",
+      "Graphical interface",
+      "Event-driven programming"
+    ],
+    "challenges": "Design consideration: separate the graphical interface from business logic.",
+    "learning": "Project learning areas: Python, Tkinter and data validation.",
+    "scope": true
+  },
+  "training-fleet": {
+    "period": "Oct 2021 – Feb 2022 · training period",
+    "title": "Vehicle Fleet Management",
+    "subtitle": "Training · Full-Stack JavaScript",
+    "description": "Training project focused on vehicle management with Angular, Node.js, Express.js and MongoDB.",
+    "context": "Training project associated with the CrocoCoder experience.",
+    "problem": "Represent vehicle management needs in a web application.",
+    "solution": "An Angular SPA connected to an Express.js backend and MongoDB database.",
+    "role": "Full-stack JavaScript development during training.",
+    "architecture": ["Angular", "REST API", "Node.js · Express.js", "MongoDB"],
+    "features": [
+      "Learning scope: responsive interfaces",
+      "Frontend / backend integration",
+      "CRUD operations"
+    ],
+    "concepts": ["MEAN stack", "REST API", "SPA", "NoSQL"],
+    "challenges": "Learning consideration: connect components, APIs and data collections.",
+    "learning": "Training areas: end-to-end web development and REST integration.",
+    "scope": true
+  },
+  "auto-ecommerce": {
+    "period": "Oct 2021 – Feb 2022 · training period",
+    "title": "Automotive Parts E-Commerce",
+    "subtitle": "Training · Full-Stack JavaScript",
+    "description": "Training project focused on automotive parts sales with Angular, Node.js, Express.js and MongoDB.",
+    "context": "Training project associated with the CrocoCoder experience.",
+    "problem": "Represent automotive parts sales needs in a web application.",
+    "solution": "An Angular SPA connected to an Express.js backend and MongoDB database.",
+    "role": "Full-stack JavaScript development during training.",
+    "architecture": ["Angular", "REST API", "Node.js · Express.js", "MongoDB"],
+    "features": [
+      "Learning scope: responsive interfaces",
+      "Frontend / backend integration",
+      "CRUD operations"
+    ],
+    "concepts": ["MEAN stack", "REST API", "SPA", "NoSQL"],
+    "challenges": "Learning consideration: connect components, APIs and data collections.",
+    "learning": "Training areas: end-to-end web development and REST integration.",
+    "scope": true
+  },
+  "doctor-appointments": {
+    "period": "Oct 2021 – Feb 2022 · training period",
+    "title": "Doctor Appointments",
+    "subtitle": "Training · Full-Stack JavaScript",
+    "description": "Training project focused on doctor appointment booking with Angular, Node.js, Express.js and MongoDB.",
+    "context": "Training project associated with the CrocoCoder experience.",
+    "problem": "Represent doctor appointment booking needs in a web application.",
+    "solution": "An Angular SPA connected to an Express.js backend and MongoDB database.",
+    "role": "Full-stack JavaScript development during training.",
+    "architecture": ["Angular", "REST API", "Node.js · Express.js", "MongoDB"],
+    "features": [
+      "Learning scope: responsive interfaces",
+      "Frontend / backend integration",
+      "CRUD operations"
+    ],
+    "concepts": ["MEAN stack", "REST API", "SPA", "NoSQL"],
+    "challenges": "Learning consideration: connect components, APIs and data collections.",
+    "learning": "Training areas: end-to-end web development and REST integration.",
+    "scope": true
+  },
+  "training-management": {
+    "period": "Oct 2021 – Feb 2022 · training period",
+    "title": "Training Management",
+    "subtitle": "Training · Full-Stack JavaScript",
+    "description": "Training project focused on training management with Angular, Node.js, Express.js and MongoDB.",
+    "context": "Training project associated with the CrocoCoder experience.",
+    "problem": "Represent training management needs in a web application.",
+    "solution": "An Angular SPA connected to an Express.js backend and MongoDB database.",
+    "role": "Full-stack JavaScript development during training.",
+    "architecture": ["Angular", "REST API", "Node.js · Express.js", "MongoDB"],
+    "features": [
+      "Learning scope: responsive interfaces",
+      "Frontend / backend integration",
+      "CRUD operations"
+    ],
+    "concepts": ["MEAN stack", "REST API", "SPA", "NoSQL"],
+    "challenges": "Learning consideration: connect components, APIs and data collections.",
+    "learning": "Training areas: end-to-end web development and REST integration.",
+    "scope": true
+  }
+}
