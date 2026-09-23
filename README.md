@@ -25,7 +25,7 @@ Le build de production est généré dans `dist/`. `preview` permet de le tester
 
 - FR / EN avec détection initiale, préférence persistante et contenu équivalent.
 - Navigation fixe, repérage de la section active, menu mobile et navigation au clavier.
-- Écosystème technique animé, parcours professionnel, compétences, formation et langues.
+- Écosystème technique animé, parcours professionnel, compétences, formation, langues et section « Vision & perspectives » : activité Web freelance actuelle et autoformation Python/Odoo en cours.
 - 14 projets regroupés par catégorie puis par organisation, du plus récent au plus ancien dans chaque groupe. Trois boutons permettent d’isoler les catégories professionnelles, freelance et académiques ; un second clic réaffiche les trois. Six fiches majeures conservent un aperçu visuel.
 - Fiches détaillées : contexte, besoin, solution, rôle, architecture, périmètre, technologies, enjeux et axes d’apprentissage.
 - Illustrations conceptuelles en HTML/CSS : aucune fausse capture ni donnée client.
@@ -85,7 +85,7 @@ vite.config.ts
 
 ## Pages et projets
 
-La page `/` regroupe le portfolio. Les sections possèdent des ancres stables : `home`, `about`, `experience`, `projects`, `skills`, `education`, `contact`.
+La page `/` regroupe le portfolio. Les sections possèdent des ancres stables : `home`, `about`, `experience`, `projects`, `skills`, `education`, `vision`, `contact`.
 
 | Catégorie      | Organisation                    | Projets et période                                                                                                                  |
 | -------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |

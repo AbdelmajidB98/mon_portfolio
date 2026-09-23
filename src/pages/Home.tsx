@@ -7,6 +7,7 @@ import {
   EducationTimeline,
   ExperienceTimeline,
   SkillsSection,
+  VisionSection,
 } from '../components/Sections';
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Projects />
       <SkillsSection />
       <EducationTimeline />
+      <VisionSection />
       <ContactSection />
     </>
   );

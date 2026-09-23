@@ -155,6 +155,40 @@ export function EducationTimeline() {
     </AnimatedSection>
   );
 }
+export function VisionSection() {
+  const { t } = useTranslation();
+  return (
+    <AnimatedSection id="vision" className="container section-space vision-section">
+      <SectionHeader
+        label={t('vision.label')}
+        title={t('vision.title')}
+        description={t('vision.intro')}
+      />
+      <div className="vision-grid">
+        <article className="vision-card vision-web">
+          <div className="vision-card-top">
+            <Braces size={22} aria-hidden="true" />
+            <span>{t('vision.web.eyebrow')}</span>
+          </div>
+          <h3>{t('vision.web.title')}</h3>
+          <p>{t('vision.web.description')}</p>
+          <a className="vision-cta" href="mailto:bouchouchaabdelmajid45@gmail.com">
+            {t('vision.web.cta')}
+            <ArrowUpRight size={17} aria-hidden="true" />
+          </a>
+        </article>
+        <article className="vision-card vision-odoo">
+          <div className="vision-card-top">
+            <Workflow size={22} aria-hidden="true" />
+            <span>{t('vision.odoo.eyebrow')}</span>
+          </div>
+          <h3>{t('vision.odoo.title')}</h3>
+          <p>{t('vision.odoo.description')}</p>
+        </article>
+      </div>
+    </AnimatedSection>
+  );
+}
 export function ContactSection() {
   const { t } = useTranslation();
   return (

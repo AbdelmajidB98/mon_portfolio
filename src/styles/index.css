@@ -1182,6 +1182,64 @@ main:focus {
   background: white;
   font-size: 10px;
 }
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+.vision-card {
+  min-height: 295px;
+  padding: 36px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.vision-card-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 29px;
+  color: var(--blue);
+}
+.vision-card-top span {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+.vision-card h3 {
+  font-size: clamp(20px, 2vw, 26px);
+  margin-bottom: 12px;
+}
+.vision-card p {
+  font-size: 12px;
+  max-width: 480px;
+  margin-bottom: 20px;
+}
+.vision-web {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: white;
+}
+.vision-web .vision-card-top,
+.vision-web p {
+  color: #c5d5f3;
+}
+.vision-odoo {
+  background: var(--pale);
+}
+.vision-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  align-self: flex-start;
+  margin-top: auto;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 5px;
+}
 .education-section {
   background: #fafbfd;
   border-block: 1px solid #eef1f6;
@@ -2154,6 +2212,17 @@ main:focus {
   .skill-category .tech-badge {
     font-size: 10px;
     padding: 7px 10px;
+  }
+  .vision-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .vision-card {
+    min-height: 0;
+    padding: 26px 23px;
+  }
+  .vision-card-top {
+    margin-bottom: 20px;
   }
   .education-grid {
     grid-template-columns: 1fr;

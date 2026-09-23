@@ -3,7 +3,16 @@ import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ArrowUpRight, Download, Eye, Github, Linkedin, Menu, X, ArrowUp } from 'lucide-react';
-const sections = ['home', 'about', 'experience', 'projects', 'skills', 'education', 'contact'];
+const sections = [
+  'home',
+  'about',
+  'experience',
+  'projects',
+  'skills',
+  'education',
+  'vision',
+  'contact',
+];
 export function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
   return (

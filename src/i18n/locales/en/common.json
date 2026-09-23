@@ -6,6 +6,7 @@
     "projects": "Projects",
     "skills": "Skills",
     "education": "Education",
+    "vision": "Vision",
     "contact": "Contact"
   },
   "role": "Full-Stack Developer",
@@ -51,8 +52,24 @@
     "sub": [
       "Frontend + Backend + API + databases",
       "ERP · CRM · SaaS · B2B · POS",
-      "ERP · Odoo · Cloud · modern web architecture"
+      "Technical curiosity · ongoing learning"
     ]
+  },
+  "vision": {
+    "label": "VISION & NEXT STEPS",
+    "title": "Web solutions today. Odoo on the horizon.",
+    "intro": "Web development remains the core of my freelance work. In parallel, I am studying Python and Odoo to gradually broaden my skills.",
+    "web": {
+      "eyebrow": "TODAY · FREELANCE",
+      "title": "Tailored Web development",
+      "description": "I use my skills in React, TypeScript, PHP and REST APIs to build websites and Web applications suited to my clients’ needs.",
+      "cta": "Let’s discuss your project"
+    },
+    "odoo": {
+      "eyebrow": "SELF-STUDY IN PROGRESS",
+      "title": "Exploring the Odoo ecosystem",
+      "description": "I have started self-study in Odoo to strengthen my Python skills and gradually understand its ecosystem. My goal is to broaden the solutions I can offer businesses over time."
+    }
   },
   "highlights": [
     "From business needs to solutions",

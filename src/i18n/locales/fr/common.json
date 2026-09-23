@@ -6,6 +6,7 @@
     "projects": "Projets",
     "skills": "Compétences",
     "education": "Formation",
+    "vision": "Vision",
     "contact": "Contact"
   },
   "role": "Développeur Full-Stack",
@@ -51,8 +52,24 @@
     "sub": [
       "Frontend + Backend + API + bases de données",
       "ERP · CRM · SaaS · B2B · POS",
-      "ERP · Odoo · Cloud · architecture Web moderne"
+      "Veille · curiosité technique · apprentissage continu"
     ]
+  },
+  "vision": {
+    "label": "VISION & PERSPECTIVES",
+    "title": "Des solutions Web aujourd’hui. Odoo en perspective.",
+    "intro": "Le développement Web reste le cœur de mon activité freelance. En parallèle, je me forme à Python et à Odoo pour élargir progressivement mes compétences.",
+    "web": {
+      "eyebrow": "AUJOURD’HUI · FREELANCE",
+      "title": "Développement Web sur mesure",
+      "description": "Je propose mes compétences en React, TypeScript, PHP et API REST pour créer des sites et applications Web adaptés aux besoins de mes clients.",
+      "cta": "Parlons de votre projet"
+    },
+    "odoo": {
+      "eyebrow": "AUTOFORMATION EN COURS",
+      "title": "Explorer l’écosystème Odoo",
+      "description": "J’ai commencé une autoformation à Odoo pour renforcer mes compétences en Python et comprendre progressivement son écosystème. Mon objectif est d’élargir à terme les solutions que je peux proposer aux entreprises."
+    }
   },
   "highlights": [
     "Du besoin métier à la solution",
