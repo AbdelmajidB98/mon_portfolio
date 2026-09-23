@@ -43,9 +43,9 @@ React 19, TypeScript, Vite, Tailwind CSS 4, Framer Motion, React Router, Lucide 
 
 ```text
 netlify/
-  cv/                         # CV PDF servi par la fonction, hors du site statique
   functions/cv.mjs            # Accès au PDF et notification Resend
 public/
+  cv/                         # PDF publié avec le site
   images/projects/            # Captures autorisées à ajouter
   favicon.svg
   robots.txt
@@ -129,7 +129,7 @@ Déposer les captures autorisées dans `public/images/projects/`, idéalement en
 
 ## CV et notifications
 
-Le CV fourni est conservé sans modification dans `netlify/cv/Abdelmajid-Bouchoucha-CV.pdf`. Les liens « Voir mon CV » et « Télécharger mon CV » appellent `/api/cv?action=view` et `/api/cv?action=download`. La fonction Netlify sert le même PDF avec `Content-Disposition: inline` ou `attachment`, puis demande à Resend d’envoyer une alerte. Le PDF n’est pas copié dans `public/` : les accès au CV depuis le site passent par cette fonction.
+Le CV fourni est conservé sans modification dans `public/cv/Abdelmajid-Bouchoucha-CV.pdf`, puis copié par Vite dans le site publié. Les liens « Voir mon CV » et « Télécharger mon CV » appellent `/api/cv?action=view` et `/api/cv?action=download`. La fonction Netlify récupère ce PDF depuis le site, le sert avec `Content-Disposition: inline` ou `attachment`, puis demande à Resend d’envoyer une alerte. Cela évite de dépendre du répertoire de travail de la fonction après le déploiement. Une personne qui utilise directement l’URL statique `/cv/Abdelmajid-Bouchoucha-CV.pdf` contourne la notification ; les liens du portfolio passent par la fonction.
 
 Le destinataire confirmé est `bouchouchaabdelmajid45@gmail.com`. Avant une mise en ligne sur Netlify, configurer dans les variables d’environnement accessibles aux **Functions** :
 
@@ -147,13 +147,13 @@ Copier `.env.example` vers `.env.local` et remplacer `VITE_SITE_URL` par l’URL
 
 Les métadonnées sont mises à jour côté client pour la langue et la route. Les robots ne rendant pas JavaScript peuvent uniquement lire les métadonnées initiales françaises d’`index.html`. Pour des aperçus sociaux spécifiques à chaque projet dans ces robots, un prérendu ou rendu serveur sera nécessaire. Aucun score Lighthouse n’est revendiqué sans mesure.
 
-## Netlify — prêt, non déployé
+## Netlify — déploiement
 
 Build command : `npm run build`.
 
 Publish directory : `dist`.
 
-`netlify.toml` est configuré avec le fallback React Router `/* → /index.html` (200) et inclut le PDF dans la fonction `cv`. Aucun compte Netlify n’a été connecté et aucune publication n’a été effectuée. Les notifications réelles exigent un déploiement sur Netlify et la configuration Resend ci-dessus.
+`netlify.toml` est configuré avec le fallback React Router `/* → /index.html` (200). Le PDF est publié dans `dist/cv/` et lu par la fonction `cv` depuis l’URL statique du site. Le site est publié sur [abdelmajidbouchoucha.netlify.app](https://abdelmajidbouchoucha.netlify.app/). Les notifications réelles exigent la configuration Resend ci-dessus.
 
 ## Éléments à fournir
 

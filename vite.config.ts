@@ -6,7 +6,7 @@ import { resolve } from 'node:path';
 import type { IncomingMessage, ServerResponse } from 'node:http';
 import type { Plugin } from 'vite';
 
-const cvPath = resolve('netlify/cv/Abdelmajid-Bouchoucha-CV.pdf');
+const cvPath = resolve('public/cv/Abdelmajid-Bouchoucha-CV.pdf');
 
 function serveLocalCv(request: IncomingMessage, response: ServerResponse, next: () => void) {
   const url = new URL(request.url ?? '/', 'http://localhost');

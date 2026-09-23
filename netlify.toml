@@ -3,12 +3,14 @@
   publish = "dist"
 [build.environment]
   NODE_VERSION = "22"
-[functions.cv]
-  included_files = ["netlify/cv/Abdelmajid-Bouchoucha-CV.pdf"]
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+[[headers]]
+  for = "/cv/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
 [[headers]]
   for = "/assets/*"
   [headers.values]

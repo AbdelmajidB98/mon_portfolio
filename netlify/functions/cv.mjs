@@ -1,7 +1,4 @@
-import { readFile } from 'node:fs/promises';
-import { join } from 'node:path';
-
-const cvPath = join(process.cwd(), 'netlify', 'cv', 'Abdelmajid-Bouchoucha-CV.pdf');
+const cvUrl = '/cv/Abdelmajid-Bouchoucha-CV.pdf';
 const fileName = 'CV_AbdelmajidBouchoucha.pdf';
 
 function setting(name) {
@@ -50,7 +47,12 @@ export default async function cv(request) {
 
   let pdf;
   try {
-    pdf = await readFile(cvPath);
+    const response = await fetch(new URL(cvUrl, request.url));
+    if (!response.ok) throw new Error(`CV asset returned HTTP ${response.status}`);
+    pdf = new Uint8Array(await response.arrayBuffer());
+    if (pdf.byteLength < 5 || String.fromCharCode(...pdf.subarray(0, 5)) !== '%PDF-') {
+      throw new Error('CV asset is not a PDF');
+    }
   } catch (error) {
     console.error('CV file unavailable:', error);
     return new Response('CV unavailable', { status: 404 });
